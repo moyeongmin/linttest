@@ -41,6 +41,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         modifier = modifier,
         onClick = {}
     ) { }
+    Button(
+        modifier = modifier,
+        onClick = {}
+    ) { }
 }
 
 @Preview(showBackground = true)
